@@ -28,7 +28,7 @@ namespace MultiMega_Client
             formgestao = new formgestao();
             tipo = "";
             client = new MegaApiClient();
-            client.Login("c1048111@trbvn.com", "contacommaiscoisas2016");
+            client.Login("emailaccount@mail.com", "mystrongpasswordtype");
             var nodes = client.GetNodes().ToList();
 
             //Get root id
